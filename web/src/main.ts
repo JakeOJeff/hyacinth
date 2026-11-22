@@ -10,7 +10,7 @@ import { Lake3D } from "./lake3d.ts";
 import { FramePacer } from "./pacer.ts";
 import { loadPlaces, locatePlace, summarizeJams, type JamSummary } from "./places.ts";
 import { describeScenario, initAsk, type AskTools } from "./ask.ts";
-import { initChrome, moveTabThumb } from "./ui.ts";
+import { initChrome, moveTabThumb, revealMap } from "./ui.ts";
 import { healthTools, loadHealth, renderHealth, type HealthZone } from "./health.ts";
 
 const shaders: ShaderSources = { common, lbm, particles, accumulate, render };
@@ -177,12 +177,12 @@ function renderWind(facts: Facts | null, wind: WindForcing | null) {
   const d = pts.map(([x, y], i) => `${i ? "L" : "M"}${x.toFixed(1)},${y.toFixed(1)}`).join("");
   const area = document.createElementNS(SVG_NS, "path");
   area.setAttribute("d", `${d}L${W},${H}L0,${H}Z`);
-  area.setAttribute("fill", "rgba(119,133,74,0.14)");
+  area.style.fill = "color-mix(in srgb, var(--chart) 14%, transparent)";
   const line = document.createElementNS(SVG_NS, "path");
   line.setAttribute("d", d);
   line.setAttribute("fill", "none");
-  line.setAttribute("stroke", "#5f6b38");
-  line.setAttribute("stroke-width", "1.5");
+  line.style.stroke = "var(--chart)";
+  line.setAttribute("stroke-width", "2");
   line.setAttribute("vector-effect", "non-scaling-stroke");
   line.setAttribute("stroke-linejoin", "round");
   const meanY = H - 6 - (mean / top) * (H - 12);
@@ -191,7 +191,7 @@ function renderWind(facts: Facts | null, wind: WindForcing | null) {
   avg.setAttribute("x2", String(W));
   avg.setAttribute("y1", meanY.toFixed(1));
   avg.setAttribute("y2", meanY.toFixed(1));
-  avg.setAttribute("stroke", "#557686");
+  avg.style.stroke = "var(--muted)";
   avg.setAttribute("stroke-width", "1.5");
   avg.setAttribute("stroke-dasharray", "4 4");
   avg.setAttribute("vector-effect", "non-scaling-stroke");
@@ -334,12 +334,12 @@ async function main() {
   let lake: Lake3D | null = null;
   let mode: Mode = "live";
   const HINTS: Record<Mode, string> = {
-    "3d": "Drag to orbit · scroll to zoom · click water to drop hyacinth",
-    live: "Click water to drop hyacinth",
-    timelapse: "Today's 72 h forecast run",
-    heatmap: "Where mats pile up longest",
-    hotspots: "How often mats and possible debris appeared, all clear passes since Jan 2025",
-    latest: health?.latest_pass ? `Last clear satellite pass, ${health.latest_pass}` : "Last clear satellite pass",
+    "3d": "Drag to turn · pinch or scroll to zoom · tap water to drop weed",
+    live: "Tap the water to drop weed",
+    timelapse: "Today's 72-hour forecast as a video",
+    heatmap: "Where weed stays stuck longest",
+    hotspots: "How often weed and possible rubbish were seen since Jan 2025",
+    latest: health?.latest_pass ? `Satellite photo from ${health.latest_pass}` : "Last clear satellite photo",
   };
 
   const setMode = (m: Mode) => {
@@ -424,11 +424,11 @@ async function main() {
     pinAt = { x, y };
     $("pin-label").textContent = label;
     lake?.flyTo(x, y, 160);
-    stage.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    revealMap();
   };
   const showLayer = (l: "hotspots" | "latest" | "forecast") => {
     setMode(l === "forecast" ? (lake ? "3d" : "live") : l);
-    stage.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    revealMap();
   };
   const showZone = (z: HealthZone) => {
     if (z.x === null || z.y === null) return;
@@ -436,7 +436,10 @@ async function main() {
     pinTo(z.x, z.y, z.name_ml ? `${z.name} · ${z.name_ml}` : z.name);
   };
   const dataTools = health ? healthTools(health, { showLayer }) : {};
-  if (health) renderHealth(health, { showZone, showLayer });
+  if (health) {
+    $("health-missing").hidden = true;
+    renderHealth(health, { showZone, showLayer });
+  }
 
   const fallBackToMedia = (msg: string) => {
     notice(msg);
@@ -511,6 +514,7 @@ async function main() {
   canvas.width = s.width;
   canvas.height = s.height;
   canvas.style.aspectRatio = `${s.width} / ${s.height}`;
+  stage.style.setProperty("--ar", String(s.width / s.height));
   const ctx = canvas.getContext("webgpu");
   if (!ctx) {
     notice("Could not get a WebGPU canvas context.");
@@ -536,7 +540,7 @@ async function main() {
   const observed = $<HTMLInputElement>("observed");
   const playBtn = $<HTMLButtonElement>("play");
   const ranges = [speed, dir, ws, river, drop];
-  const controls = document.querySelector<HTMLElement>(".panel")!;
+  const controls = $("sim-controls");
 
   barrage.checked = s.barrageOpen;
   river.value = String(Math.round(s.physParams.riverHead * 1000));
@@ -648,6 +652,7 @@ async function main() {
       const open = input.barrage === "as_forecast" ? todayBarrage : input.barrage === "open";
       const windFixed = input.wind === "fixed" ? { speed: input.wind_speed_ms, dirFrom: input.wind_from_deg } : null;
       if (mode !== "3d" && mode !== "live") setMode(lake ? "3d" : "live");
+      revealMap();
       setPlaying(false);
       controls.inert = true;
       try {

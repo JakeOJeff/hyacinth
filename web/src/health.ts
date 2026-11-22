@@ -662,8 +662,8 @@ function renderSky(h: HealthData) {
   }
   // Sequential single hue: light (low) -> dark slate (high).
   const ramp = (f: number) => {
-    const a = [228, 221, 209];
-    const b = [47, 72, 86];
+    const a = [226, 232, 240];
+    const b = [30, 58, 138];
     return `rgb(${a.map((v, k) => Math.round(v + (b[k] - v) * f)).join(",")})`;
   };
   const g = svgEl("g");
