@@ -455,13 +455,22 @@ async function main() {
     fallBackToMedia("WebGPU is available but no GPU adapter was found.");
     return;
   }
-  const device = await adapter.requestDevice({
-    requiredLimits: {
-      maxStorageBufferBindingSize: adapter.limits.maxStorageBufferBindingSize,
-      maxBufferSize: adapter.limits.maxBufferSize,
-    },
-  });
-  device.lost.then((info) => notice(`GPU device lost: ${info.message}`));
+  // Only ask for what the sim needs: requesting the adapter's maximum buffer
+  // size makes some drivers reserve far more memory than the ~100 MB used.
+  const NEED = 512 * 1024 * 1024;
+  const newDevice = async (a: GPUAdapter) => {
+    const d = await a.requestDevice({
+      requiredLimits: {
+        maxStorageBufferBindingSize: Math.min(NEED, a.limits.maxStorageBufferBindingSize),
+        maxBufferSize: Math.min(NEED, a.limits.maxBufferSize),
+      },
+    });
+    d.lost.then((info) => {
+      if (info.reason !== "destroyed") notice(`The GPU stopped responding (${info.message || info.reason}). This usually means the computer is low on memory: close some tabs or apps and reload.`);
+    });
+    return d;
+  };
+  let device = await newDevice(adapter);
 
   let hasObserved = false;
   let snapshot: Float32Array | null = null;
@@ -474,7 +483,16 @@ async function main() {
       fetchOptionalBytes(`${base}/state.bin`),
     ]);
     const data = buildSimData(mask, seed, wind, observed ?? undefined);
-    sim = await HyacinthSim.create(device, data, shaders);
+    try {
+      sim = await HyacinthSim.create(device, data, shaders);
+    } catch (e) {
+      // "Instance dropped" / device lost: the GPU process restarted. Retry once on a fresh device.
+      if (!/dropped|lost/i.test((e as Error).message)) throw e;
+      const a2 = await navigator.gpu.requestAdapter({ powerPreference: "high-performance" });
+      if (!a2) throw new Error("the GPU stopped responding (often low memory); close some tabs or apps and reload");
+      device = await newDevice(a2);
+      sim = await HyacinthSim.create(device, data, shaders);
+    }
     if (state && state.byteLength % 16 === 0) snapshot = new Float32Array(state.buffer, state.byteOffset, state.byteLength / 4);
     hasObserved = !!observed;
     sim.showObserved = hasObserved;
