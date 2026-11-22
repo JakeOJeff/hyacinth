@@ -25,8 +25,11 @@ def post(out_dir: Path, caption: str) -> bool:
     if not token or not chat:
         print("[telegram] TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set; skipping post")
         return False
-    if len(caption) > CAPTION_LIMIT:
-        caption = caption[: CAPTION_LIMIT - 1] + "…"
+    site = os.environ.get("HYACINTH_SITE_URL", "").strip()
+    link = f"\n\nLive map and questions: {site}" if site else ""
+    if len(caption) + len(link) > CAPTION_LIMIT:
+        caption = caption[: CAPTION_LIMIT - len(link) - 1] + "…"
+    caption += link
     video = out_dir / "forecast.mp4"
     heat = out_dir / "heatmap.png"
     if video.exists():

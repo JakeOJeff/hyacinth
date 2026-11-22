@@ -210,6 +210,8 @@ export async function handleAsk(body: unknown, env: AskEnv): Promise<AskResult> 
     const completion = await client.chat.completions.create({
       model: env.model,
       max_completion_tokens: 4000,
+      // Luna-class models reject function tools on Chat Completions unless reasoning is off.
+      reasoning_effort: "none",
       messages: [
         // Frozen per dataset and day, so the prefix is reusable across visitors.
         {

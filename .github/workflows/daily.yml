@@ -20,6 +20,7 @@ jobs:
       OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+      HYACINTH_SITE_URL: https://hyacinth-574.pages.dev
       HYACINTH_BARRAGE: ${{ vars.HYACINTH_BARRAGE }}
       # `secrets` cannot be used in step `if:` conditions; expose a flag instead.
       HAS_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
@@ -84,7 +85,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx --yes wrangler@3.114.0 pages deploy dist --project-name=payal --branch=main
+        run: npx --yes wrangler@3.114.0 pages deploy dist --project-name=hyacinth --branch=main
 
       - name: Keep the day's outputs
         if: always()

@@ -580,7 +580,7 @@ function renderSeason(h: HealthData, metric: Metric, zone: number) {
       svg.append(v);
     }
   });
-  $("h-season-note").textContent = `Darker column = ${h.metrics[metric].higher_is === "better" ? "worst (lowest)" : "worst (highest)"} month. Months without clear passes are flat.`;
+  $("h-season-note").textContent = `Highlighted column = ${h.metrics[metric].higher_is === "better" ? "worst (lowest)" : "worst (highest)"} month. Months without clear passes are flat.`;
 }
 
 // ---- ranking: zones worst first ----
