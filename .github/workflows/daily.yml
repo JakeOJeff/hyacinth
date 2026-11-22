@@ -1,0 +1,97 @@
+name: daily-forecast
+
+# Once a day: fetch inputs, run the GPU sim headless on Mesa lavapipe
+# (software Vulkan: slow but free), caption, post to Telegram, deploy the site.
+on:
+  schedule:
+    - cron: "30 0 * * *" # 06:00 IST
+  workflow_dispatch:
+
+concurrency:
+  group: daily-forecast
+  cancel-in-progress: false
+
+jobs:
+  forecast:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+      HYACINTH_BARRAGE: ${{ vars.HYACINTH_BARRAGE }}
+      # `secrets` cannot be used in step `if:` conditions; expose a flag instead.
+      HAS_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System packages (software Vulkan + ffmpeg)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends mesa-vulkan-drivers libvulkan1 ffmpeg
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.9.6
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Cache OSM mask
+        uses: actions/cache@v4
+        with:
+          path: data/static
+          key: osm-${{ hashFiles('pipeline/hyacinth/config.py', 'pipeline/hyacinth/osm.py') }}
+
+      # The lake-health record grows by one pass a day; keep it between runs.
+      # A new key each run saves the updated record; restore-keys picks the newest.
+      - name: Cache lake-health record
+        uses: actions/cache@v4
+        with:
+          path: data/health
+          key: health-${{ hashFiles('pipeline/hyacinth/health.py') }}-${{ github.run_id }}
+          restore-keys: health-${{ hashFiles('pipeline/hyacinth/health.py') }}-
+
+      - name: Python deps
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Physics self-test (lavapipe)
+        run: deno task selftest
+
+      - name: Fetch, render, caption, publish, post
+        working-directory: pipeline
+        run: python -m hyacinth daily
+
+      - name: Build site
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy to Cloudflare Pages
+        if: env.HAS_CLOUDFLARE == 'true'
+        working-directory: web
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@3.114.0 pages deploy dist --project-name=payal --branch=main
+
+      - name: Keep the day's outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hyacinth-${{ github.run_id }}
+          path: |
+            data/latest
+            !data/latest/out/frames
+          retention-days: 14

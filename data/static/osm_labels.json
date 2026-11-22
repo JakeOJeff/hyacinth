@@ -1,0 +1,3670 @@
+{
+  "waterways": [
+    {
+      "name": "Srambi Kadavu",
+      "name_ml": null
+    },
+    {
+      "name": "Kodur River",
+      "name_ml": "കൊടൂരാർ"
+    },
+    {
+      "name": "Meenachil River",
+      "name_ml": null
+    },
+    {
+      "name": "Kiliroor Thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Thottakom thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Valiyamadakuzhy Kulam",
+      "name_ml": "വ​ലി​യ​മ​ട കു​ളം"
+    },
+    {
+      "name": "Patinjare kulam",
+      "name_ml": "പടിഞ്ഞാറേ കുളം"
+    },
+    {
+      "name": "Vazhappally Mahadeva Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "thevalakaadu river",
+      "name_ml": null
+    },
+    {
+      "name": "Meenachil",
+      "name_ml": null
+    },
+    {
+      "name": "udayanapuram thodu",
+      "name_ml": null
+    },
+    {
+      "name": "AC Canal",
+      "name_ml": "ഏ.സി. കനാൽ"
+    },
+    {
+      "name": "AS Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Punnamada Lake",
+      "name_ml": "പുന്നമടക്കായൽ"
+    },
+    {
+      "name": "Mullackal Sree Devi Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vattakkayal stream",
+      "name_ml": null
+    },
+    {
+      "name": "Alappuzha Changanasherry Ferry",
+      "name_ml": null
+    },
+    {
+      "name": "Nedumchira",
+      "name_ml": "നെടുംചിറ"
+    },
+    {
+      "name": "Manimala River",
+      "name_ml": "മണിമലയാർ"
+    },
+    {
+      "name": "Vattakayal Kayalpuram",
+      "name_ml": null
+    },
+    {
+      "name": "Kappuchin Asramam Church kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Bhoothapandam Kayal",
+      "name_ml": null
+    },
+    {
+      "name": "Raveendra Sarovaram Reservoir",
+      "name_ml": null
+    },
+    {
+      "name": "kottayam Boat Jetty (old)",
+      "name_ml": null
+    },
+    {
+      "name": "Thanakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalarcodu Sree Mahadeva Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chaliyadath Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "aapuzha,chulli thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Ambalakulam Udayanapuram",
+      "name_ml": null
+    },
+    {
+      "name": "Mahadeva Temple Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Mutherimada - Panikkodu Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Poovakkattuchira",
+      "name_ml": null
+    },
+    {
+      "name": "Juma masjid Kulam, Thazhathangadi",
+      "name_ml": null
+    },
+    {
+      "name": "16th mile canal",
+      "name_ml": null
+    },
+    {
+      "name": "Arattukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thuravoor Mahakshethra Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "T.D. Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Thiruvampady Sree Krishnaswamy Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kumaranalloor Devi Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Thirunakkara Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Canal",
+      "name_ml": "കനാൽ"
+    },
+    {
+      "name": "Kodoor River",
+      "name_ml": null
+    },
+    {
+      "name": "Kodikkan Kulam( Ambakuzhy Sadhar)",
+      "name_ml": null
+    },
+    {
+      "name": "Narasimha Swami Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Lakshmanakulam",
+      "name_ml": null
+    },
+    {
+      "name": "kottarathodu",
+      "name_ml": null
+    },
+    {
+      "name": "Chungam_KSWT Dock Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Commercial Canal",
+      "name_ml": "കൊമേർഷ്യൽ കനാൽ"
+    },
+    {
+      "name": "Sri Subramanya swami Kshethra Kulam, Perunna",
+      "name_ml": null
+    },
+    {
+      "name": "Thiruvenkitapuram Maha Vishnu temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Vembinkulangara Kshethra Kulam",
+      "name_ml": "ക്ഷേത്രക്കുളം"
+    },
+    {
+      "name": "Deepanivaz Kulam-1",
+      "name_ml": null
+    },
+    {
+      "name": "ഇത്തിക്കായൽ ശുദ്ധജല തടാകം",
+      "name_ml": null
+    },
+    {
+      "name": "Kandankulam",
+      "name_ml": null
+    },
+    {
+      "name": "kalchira thodu",
+      "name_ml": null
+    },
+    {
+      "name": "THANNEERMUKKOM TEMPLE POND",
+      "name_ml": null
+    },
+    {
+      "name": "Ezhukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthenthodu",
+      "name_ml": "പുത്തൻതോട്"
+    },
+    {
+      "name": "Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Velliyakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ettukandathil Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Ettukandathil Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Temple pond",
+      "name_ml": null
+    },
+    {
+      "name": "water tank",
+      "name_ml": null
+    },
+    {
+      "name": "Perumkulam, Kannankara",
+      "name_ml": null
+    },
+    {
+      "name": "water body",
+      "name_ml": null
+    },
+    {
+      "name": "Madayanthodu",
+      "name_ml": null
+    },
+    {
+      "name": "Aravukadu Sree Devi Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "valummelchira canal",
+      "name_ml": null
+    },
+    {
+      "name": "Murinjupuzha Thodu",
+      "name_ml": "മുറിഞ്ഞപുഴ തോട്"
+    },
+    {
+      "name": "Velorvattom Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Bhoothapandan Chira Kulam -1",
+      "name_ml": null
+    },
+    {
+      "name": "kariyar",
+      "name_ml": null
+    },
+    {
+      "name": "Chirakkuzhi",
+      "name_ml": null
+    },
+    {
+      "name": "K V Canal",
+      "name_ml": null
+    },
+    {
+      "name": "valiyathodu river",
+      "name_ml": null
+    },
+    {
+      "name": "kuruppanthara kadav",
+      "name_ml": null
+    },
+    {
+      "name": "Perayil Canal",
+      "name_ml": "പേരയിൽ തോട്"
+    },
+    {
+      "name": "Kothakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thrikkovil Ambalakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaniyakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ambalakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kottamkulangara Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Veliyakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Palakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Keraladithyapuram Sreekrishnaswami Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thirunagamkulangara Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "varanad temple pond",
+      "name_ml": null
+    },
+    {
+      "name": "Puthuvelnikarthil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vattakeril Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Pampoorampara-Kapyaru Kavala Road Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kanichukulangara Devi Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Kanichukulangara Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "TEMPLE POND",
+      "name_ml": null
+    },
+    {
+      "name": "Punnkeezhil Baggavathi Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kottaram temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Kalikulam",
+      "name_ml": "കാളികുളം"
+    },
+    {
+      "name": "Chudukadu Theke Mahal Jumamazjith- Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pazhaveedu Temple Pond",
+      "name_ml": "പഴവീട് ക്ഷേത്ര കുളം"
+    },
+    {
+      "name": "Thalikkotta Temple Kulam,Thazhathangadi",
+      "name_ml": null
+    },
+    {
+      "name": "thaliyil mahadeva temple kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thrikkayil Sree Mahadeva Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vattakkotta pond",
+      "name_ml": null
+    },
+    {
+      "name": "Pedal boat pond",
+      "name_ml": null
+    },
+    {
+      "name": "Maniyankulam Near Ayamkudy Mahadeva Temple",
+      "name_ml": null
+    },
+    {
+      "name": "Fish pond",
+      "name_ml": null
+    },
+    {
+      "name": "Pandavam Sreedharmaswamy Kulam, Kudayampady",
+      "name_ml": null
+    },
+    {
+      "name": "Karikulangara Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Irattakulangara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Arpookkara Sri. Subramanya Swamy Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vasudevapuram Kulam, Kudamaloor",
+      "name_ml": null
+    },
+    {
+      "name": "Eraveeswaram Kshethra Kulam, Kudamaloor",
+      "name_ml": null
+    },
+    {
+      "name": "Choorakkavu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Choorakkavu Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Manalechira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pampoorampara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pattukutham Ambala Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puzharathu Colony Kulam kanjykuzhy",
+      "name_ml": null
+    },
+    {
+      "name": "Pollakattil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vellenchira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Aayilythai Colony Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Aayilythai Colony Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Kannezhuthucolony Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Elamkkavu Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sasthangal Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sastha Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "St. Joseph Ferona Church Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Cherukara Society Godoun Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Velapparambathu Kulamm",
+      "name_ml": null
+    },
+    {
+      "name": "Munnamkaravelli Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ellathiara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kuttikattil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Revathy Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kakkaparambathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shrichithra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kothakattu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalpaka Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Karthika Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kuttikaattuvelliyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Cherukathra Kudumba Devasa Kshethra Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Nandanam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ravimandirathil Velliyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthiyadathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vadakkekochuvelli Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Poonambanchira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Koraparambil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kadambanadu Ambala Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kollasherry Bhadrakalli kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kanjhimuttom Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nikarthil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vattakattu Shrivishvanatha Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vallayil Kshethra Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Vallayil Kshethra Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Verumkottakal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Punnavelliveliyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nettimukkunnu Kudumba Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chiraykal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Velliyilparambu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Naduvillezathu Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Naduvillezathu Kulam - 4",
+      "name_ml": null
+    },
+    {
+      "name": "Naduvillezathu Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Naduvillezathu Kulam - 3",
+      "name_ml": null
+    },
+    {
+      "name": "Velliparambu Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Naduvellazhathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Angadi Veetil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kallambukattuchira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Perumbathara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pulliyanoormattom Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Panjhikaran Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Velliyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kunthevelliyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Channiyil Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Panjhikaran Kulam - 4",
+      "name_ml": null
+    },
+    {
+      "name": "Chennanattuvelli Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sreebhavatham Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Keezhkulangara Mahadeva Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chithrakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Narikulam",
+      "name_ml": null
+    },
+    {
+      "name": "Morkulangara Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "State seed farm Kulam,Valachira",
+      "name_ml": null
+    },
+    {
+      "name": "Pallikanjiram-parakkulam Kulam Near Idukkumattom Bhagom",
+      "name_ml": null
+    },
+    {
+      "name": "Govindapuram Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sreekrishnaswami Temple Pond,Thiruvampady",
+      "name_ml": null
+    },
+    {
+      "name": "Sreekrishnaswami Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Cherupuncha Pond Near Sreekrishnaswami Temple",
+      "name_ml": null
+    },
+    {
+      "name": "Sastha Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthiyakavu Ambala Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kumarakom Got. HSS Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Attipedika Pump House Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ezhumavil Mana Kulam -2 (Subramanian Nampoothirippad)",
+      "name_ml": null
+    },
+    {
+      "name": "Kavikulam Kulam Near Kunnumekavu Devi Temple",
+      "name_ml": null
+    },
+    {
+      "name": "Kunnaserikavu Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vettakkorumakan Kavukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Deepanivaz Kulam-2",
+      "name_ml": null
+    },
+    {
+      "name": "Thiruvarppu Swamyar Madom Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thiruvarppu Sree Krishna Swami temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Avittam Thirunal V. H. S. Mancombu Vaka Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Maleckal Pond II",
+      "name_ml": null
+    },
+    {
+      "name": "Neelamperoor Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Earayil Koottummel Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Padinjare Arakkal kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kannakottu Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "allathusseri Scariya's Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mullasserikulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vadakke Kunnathum Parambu kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nalupurayil kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Dharma Sastha Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Patharasseri Pothu kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kannadimaliyekkal Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Palliyarakavu Devi kshethram kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vakkisseri Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Alissery Sree Bhagavathy Kshathra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Eravukadu Sree Devi Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "temple pond",
+      "name_ml": null
+    },
+    {
+      "name": "Sasthakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pazhayapurayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Valiakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kallodi Kulam, Kaippuzha",
+      "name_ml": null
+    },
+    {
+      "name": "Kuttiyani Kulangara Kulam Neendoor",
+      "name_ml": null
+    },
+    {
+      "name": "Karimattam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Onamthuruthu Ambala Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Moovikulangara Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chemmachal Kulam, Onamthuruthu",
+      "name_ml": null
+    },
+    {
+      "name": "Thekkel Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthanpurackal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Jyes Farm Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Parampathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Adithyapuram Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chemmanathu Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalpakassery Illam Vaka Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Kidaganparampu Sree Bhuvaneswary Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalappura Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Nivasan Andhekku Parampu - Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kulam- Revidhavu Kandathiparampu",
+      "name_ml": null
+    },
+    {
+      "name": "Kulam- Ponnappan",
+      "name_ml": null
+    },
+    {
+      "name": "Mangalath Mahavishnu Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Saj Nivas Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Karikuzhi Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Pushpavilasam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vishnuvilasam Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Kannambukadu Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Marottuvelli Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pannamthai Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chaprayill Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kizhakevelli Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thaiparambil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kollabagam Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Ambadi Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Charaparambu Ambala kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Sreinikethan -Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "thevalakadu river",
+      "name_ml": null
+    },
+    {
+      "name": "Purantharayil Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Purantharayil Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Puthethu Kulam, Vazhappally",
+      "name_ml": null
+    },
+    {
+      "name": "Pappady Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kanakkoor Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaithavallapu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Plashukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Purushan- Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kollamparambu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thayill Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaithathil Kshetra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vaathikad Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Paruthichira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sndp UP School Cherukara kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kannadi Padinjaremadam Sreeb Bhagavathy Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Alum Chuvadu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Annapoomeswad Devi kshethram kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalathilveedu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vazhappally Kshethra Kulam -3",
+      "name_ml": null
+    },
+    {
+      "name": "Chittezhathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Subramanyaswami Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaitharam Kulam-IV",
+      "name_ml": null
+    },
+    {
+      "name": "Sastha kulamDevi Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nampiduparampu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Valiyakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kottarathil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "SreeVaikundapuram Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nedumparampu Illam Vaka Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Sree krishnaswami Temple Kulam, Govidapuram",
+      "name_ml": null
+    },
+    {
+      "name": "Pottakkari Kulam -III",
+      "name_ml": null
+    },
+    {
+      "name": "Cherakulangara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Attayil Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Puthenthara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chiratteparampu Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Poonkavu Devi Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaitharam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Uchanathu colony Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "V.K. Alex Vaka Kulam 1",
+      "name_ml": null
+    },
+    {
+      "name": "Thondankulangara Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Karikuzhi Road Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shri Mahadeva Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sankaranarayana Moorthi Temple kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalappurackal Sree Khandakarna Kshetra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Subramanya Swami Temple kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Manakkanchira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chanthakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Manjadikily Kulam(Chakariyar Kulam)",
+      "name_ml": null
+    },
+    {
+      "name": "Kaniya Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kochambalakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Panchayath Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pandavarkulangara Sree Krishnaswami Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shannmukhodayapuram Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thrimurthi Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shri Kanttakarnnaswami Kshethra Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Shankaranarayana Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthiyakavu Kshetra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shri Krishnawami Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kizhakkanveedu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kizhakkanveedu Kulam (A)",
+      "name_ml": null
+    },
+    {
+      "name": "Pattarakalam kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Oravumthara kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kshethra-Annapoorneswarybhadra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Cherikkal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Edamana Illam Vaka Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kadambanattu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Bhoothankery Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mathanan Devi Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shrirameshwaram Aarattu k",
+      "name_ml": null
+    },
+    {
+      "name": "Shrirameshwaram Kshetra kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Krishnaswami Temple kulam, Perunthuruthu",
+      "name_ml": null
+    },
+    {
+      "name": "Gurunadhan Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chozhikkara Mahadeva Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Parekkulam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Bhoothapandan Chira Kulam -2",
+      "name_ml": null
+    },
+    {
+      "name": "Kottaram devi Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Munduchirackal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thiruvarppu Sree Krishna Swami Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kunnathilkariyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vakkayilkulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chenthamukku Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pulipra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Edathil Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Edathil Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Attipettil Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Pottakkari Kulam -II",
+      "name_ml": null
+    },
+    {
+      "name": "Vellappally Illam Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Vellappally Illam Kulam-IV",
+      "name_ml": null
+    },
+    {
+      "name": "Kadamattumadam Kulam-V",
+      "name_ml": null
+    },
+    {
+      "name": "Kadamattumadam Kulam-III",
+      "name_ml": null
+    },
+    {
+      "name": "Mullayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Punnackaparampil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kochukunnappally Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Paramittathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaitharam North Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thevarpuzha Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Kaitharam Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Kariyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Valyarampathu Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Pallathumthara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pariyathukari Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Nayappally Kulam-III",
+      "name_ml": null
+    },
+    {
+      "name": "Vayaluparampathu Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Kulam I-Lathika bhavan",
+      "name_ml": null
+    },
+    {
+      "name": "Karathuruthu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Uzhavoormana Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Manackal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thevarezhathu Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Manapparampu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ambalathara Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mahadeva Temple Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Aiyyarkulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mookambika Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mulleparampil Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Kuppadikavu Devi Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Pazhanchira Kulam Near Iravimangalam St.George chapel",
+      "name_ml": null
+    },
+    {
+      "name": "Mattammel Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Bhagavathy Temple Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Kalapurackal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Marothickal Kulam III",
+      "name_ml": null
+    },
+    {
+      "name": "Manthuvally Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Saraswathy Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Karimboochikkadu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Iyyarappallil Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Kaiparampil Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Kokkeril Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Alankara Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Padickal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Valyaparampil Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Naduvilezhathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chettuparampil Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Thrunayamkudam Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Parakkattu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mullasseril Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Manjoor Illam Vaka Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Madappallil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Narayanan Vaka Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Omcheril Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kunnutharayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Durga Bhagavathy Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Karippayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Perungattuplavil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kolukerilthara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Arattukulam Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaniyattu Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Kavinezhathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Purathukunnam Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sreenarayanapuram Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Monattillam Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Vellamparampathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Marakkalathu Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Marakkalathu Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Nakkamthuruthu Muslim Masjid Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Orvelil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ottayil Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Marothickal Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Njarukulam",
+      "name_ml": "ഞാറുകുളം"
+    },
+    {
+      "name": "Thanal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sreekrishna Swami Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chirakkulam Kanakkari",
+      "name_ml": null
+    },
+    {
+      "name": "Parakkattukuzhy Kulam Near Parakkattukuzhy pump house",
+      "name_ml": null
+    },
+    {
+      "name": "Paranjattu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Manianchira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Palakuzhuppil Kulam Near N.S.S Karayogam",
+      "name_ml": null
+    },
+    {
+      "name": "Kuthirakkalam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Perumbathazhekulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaniyamala Parakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Muringathu Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Nangarezhathu Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Cherakulam",
+      "name_ml": "ചേരകുളം"
+    },
+    {
+      "name": "Mangalathu Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Koyikkal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thottuva Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Cheppukalayil Mathew Joseph Vaka kulam, Near Marottithadam bhagom",
+      "name_ml": null
+    },
+    {
+      "name": "Nattali Kulam,Near Cheepamchalil Bhagom",
+      "name_ml": null
+    },
+    {
+      "name": "Malieckal Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Thachutharappally Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vallazhathu Illam Vaka Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kuzhippallil Kaimal Vaka Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalapurackal Kulam V",
+      "name_ml": null
+    },
+    {
+      "name": "Thrippu Mahadeva Temple Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Poovila Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Eledathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Alackattumadam Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Thachaparampu Madam Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Kuraseril Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mandapathil Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Perumpally Pond-I",
+      "name_ml": null
+    },
+    {
+      "name": "Thundathil Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Karukayil Pond-IV",
+      "name_ml": null
+    },
+    {
+      "name": "Saradhanilayam Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Munduparampu Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Chirackal Pond I",
+      "name_ml": null
+    },
+    {
+      "name": "Pavummel Pond I",
+      "name_ml": null
+    },
+    {
+      "name": "Karadathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Girijamandiram Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Subramanyam temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kattumana Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Naranathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Palathinkal Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Vallapurackal Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Vallapurackal Kulam-III",
+      "name_ml": null
+    },
+    {
+      "name": "Valyarampathu Kulam-III",
+      "name_ml": null
+    },
+    {
+      "name": "Chalunkal kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthettu Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Kochuthazhathu Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Anthiyaram Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ghuvappattu Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Ullattu Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Manappattu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Malieckal Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Thuruthithara Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Kattuvallil Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Aravampallythara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sreekandapuram Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Vallayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaleeswara Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaleeswarathuvariam Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Chettuparampil Kulam-III",
+      "name_ml": null
+    },
+    {
+      "name": "Tharayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Valyaparampil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Tharayaparampil Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Kalampattil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Uzhavoormana Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Valyarampathu Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Pravas -Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ozhoor Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Thekkeperaliyil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Perayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pulickassery Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Vattavelithara Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Marottickal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sri Dharma Sastha Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pattathimadom Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Pattathimadom Kulikulam",
+      "name_ml": null
+    },
+    {
+      "name": "Maramveedu Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Kizhakkekottaram Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Kuttapanackal Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Kuttapanackal Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Thiruvizha Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Periyamana Padinjare Madathil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ilanjikulam",
+      "name_ml": null
+    },
+    {
+      "name": "Krishna Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kunnell Shribhadra Devikshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vellasherri Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kannan Parambil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Meenalayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kizhakekuthu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Edayadiyil Kulam- 2",
+      "name_ml": null
+    },
+    {
+      "name": "Edamannavattachira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Unnadapalli Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kannikaddu Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Vadakkecompany Kulam -",
+      "name_ml": null
+    },
+    {
+      "name": "Kannikaddu Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Pandyalaykal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pokkamthaiyill Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thayilparambil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Purackal Kulam-2",
+      "name_ml": null
+    },
+    {
+      "name": "Alunkal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vediyathu Kulam-3",
+      "name_ml": null
+    },
+    {
+      "name": "Pokklasseri Madam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Arayckal Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Punnackal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Eresherriyill Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kochuparambil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Madavanna Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Thoppil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthenpurackal Kulam - 3",
+      "name_ml": null
+    },
+    {
+      "name": "Puthenpurackal Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Pullampalli Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vadakarancheril Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Panakayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Panjarayil Kulam III",
+      "name_ml": null
+    },
+    {
+      "name": "Vallakathu KulamI",
+      "name_ml": null
+    },
+    {
+      "name": "Kochukattithara Kulam I",
+      "name_ml": null
+    },
+    {
+      "name": "Kaippadu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Elanjithara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Njhettayil Ambala Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Arackal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shri Subhramaniyam kshetram Kulam, Shavasherri - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Savassery Subramanya temple pond",
+      "name_ml": null
+    },
+    {
+      "name": "Popozhi Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Koyithurathil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaipalliyil Kudumba Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Neelamangalathu Puthenveedu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Geethaharijan Colony Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kannankulam",
+      "name_ml": null
+    },
+    {
+      "name": "Vallatukshethra Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Mukkalvattom Kshethra Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Payarukattu Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pokkanathuthara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kochumadathil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thaithara Thukamankari Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nagavally Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kallupurackal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Peedikachira Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Valiyaparampil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthenpura Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Kariyil Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Kurikayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthenpura Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Madampuram Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kannikulangara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "sree Narayana purathu Variam- Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Manankachil Kulam -IV",
+      "name_ml": null
+    },
+    {
+      "name": "Manankachil Kulam-III",
+      "name_ml": null
+    },
+    {
+      "name": "Manankachil Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "kannamplavil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nediyezhathu Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Nediyezhathu Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "kalathiparampu Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Kaniyattu Kulam II",
+      "name_ml": null
+    },
+    {
+      "name": "Pathiyamkulangara Temple pond",
+      "name_ml": null
+    },
+    {
+      "name": "Thekkinezhathu Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Veluthedathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kulam-Mary bhavan",
+      "name_ml": null
+    },
+    {
+      "name": "Thattel Kulam-III",
+      "name_ml": null
+    },
+    {
+      "name": "Thattel Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Karappuzha Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Paramada Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Olikkara Kulam -1",
+      "name_ml": null
+    },
+    {
+      "name": "Thayamkulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shivasubhramanyapuram Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Punnampuzhi Colo",
+      "name_ml": null
+    },
+    {
+      "name": "Olikkara Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Olikkara Kulam - 3",
+      "name_ml": null
+    },
+    {
+      "name": "Parapadom Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Narayana Balasubrahmanya Temple Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chathankeril Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Bhagavathiparampu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kakkattompalli Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kadathurathu Kshethra kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Kadathurathu Kshethra kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Poruntheshwaram Kshethra kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mannathu Shri Krishna Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Konkkeri Kshethra kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pazhambillikavu Kshethra kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kunnel Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthenkavu Mahadevi Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Thrikaayil Shrikrishna Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Odanattu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pappallithara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ulhannan Appathara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Paulose Appathara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Francis Appathara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Public Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Panchayathu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kuravoorkadavu Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kmarakode Mahaganapathi Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kundathil Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pallithara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalapurackal Kulam-V",
+      "name_ml": null
+    },
+    {
+      "name": "Kuruvely Illam Vaka Kulam III",
+      "name_ml": null
+    },
+    {
+      "name": "Puthayil Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Thoompunkal Kulam, Vazhappally west",
+      "name_ml": null
+    },
+    {
+      "name": "Kizhakkepallathu Madom Kulam, Vazhappally west",
+      "name_ml": null
+    },
+    {
+      "name": "Mundiyoorillam Kulam, Vazhappally west",
+      "name_ml": null
+    },
+    {
+      "name": "Kadukavelil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kadampra Kulam-IV",
+      "name_ml": null
+    },
+    {
+      "name": "Njodiyappally Kulam-I",
+      "name_ml": null
+    },
+    {
+      "name": "Edakkunnathu Kulam-II",
+      "name_ml": null
+    },
+    {
+      "name": "Thazhchayil Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kulam-Revikumar, Reknnalayam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaniyamkulam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Eruvamparampu Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Konnackappally temple pond",
+      "name_ml": null
+    },
+    {
+      "name": "Athithara Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sanmthakkal Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Shakthishwaram Kshethra Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Nikartil Puthenveedu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mullayikkal Kulam - 4",
+      "name_ml": null
+    },
+    {
+      "name": "Chirappuram Panchayath Pond.",
+      "name_ml": null
+    },
+    {
+      "name": "Vettuyelikkulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pallathusseri Scariya's Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Krishnapuram Sivanandans Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kochukunnathu Parambu kulam",
+      "name_ml": null
+    },
+    {
+      "name": "thonnichaal",
+      "name_ml": null
+    },
+    {
+      "name": "18-il Chira Ramankeripparambu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kaavil Kshethra kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Vadakumkara Kshethra Kulam - 3",
+      "name_ml": null
+    },
+    {
+      "name": "Kadambanakullangara Kshethra kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Aarattukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kadavil Bhagavathi Kshethra kulam - 3",
+      "name_ml": null
+    },
+    {
+      "name": "kantattupadam thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Thirumala Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Thukkukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Koottuvelli Kshethra Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Koottuvelli Kshethra Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Meenkulangara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Parkukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kozhikullam",
+      "name_ml": null
+    },
+    {
+      "name": "Chethikaadu Devi Kshethra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Chethikadu Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "Chethikadu Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Chethikadu Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Anjhuthai Colony Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Ramakrishna Kulam - 2",
+      "name_ml": null
+    },
+    {
+      "name": "Thottathodu",
+      "name_ml": "തോട്ടത്തോട്"
+    },
+    {
+      "name": "Moolethara Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Aravukadu Temple pond",
+      "name_ml": null
+    },
+    {
+      "name": "Valiyakulam Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Sasthankal Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Devankal Kshetra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Kalamkulam Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Elamkavu Devi Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "chelachira kulam",
+      "name_ml": null
+    },
+    {
+      "name": "vedagiri ambalakkulam",
+      "name_ml": null
+    },
+    {
+      "name": "As Canal",
+      "name_ml": null
+    },
+    {
+      "name": "small canal",
+      "name_ml": null
+    },
+    {
+      "name": "transport boat",
+      "name_ml": null
+    },
+    {
+      "name": "Kayalpuram Canal",
+      "name_ml": null
+    },
+    {
+      "name": "parakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Check dam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthan thodu",
+      "name_ml": null
+    },
+    {
+      "name": "koduvanar",
+      "name_ml": null
+    },
+    {
+      "name": "Puthiyakavu Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Veliyanadu Kidangara Ferry",
+      "name_ml": null
+    },
+    {
+      "name": "Koovakkattu Chira",
+      "name_ml": null
+    },
+    {
+      "name": "Thondakulangara Kshetra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Puthanambalam Kshetra Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Mapillakulam",
+      "name_ml": null
+    },
+    {
+      "name": "Aikkarachira Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Sree Ramakrishna Kulam - 1",
+      "name_ml": null
+    },
+    {
+      "name": "valiyapallom thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Chirathadam panchayat pond",
+      "name_ml": null
+    },
+    {
+      "name": "Pamba",
+      "name_ml": null
+    },
+    {
+      "name": "Alappuzha to Kollam",
+      "name_ml": null
+    },
+    {
+      "name": "Vada Canal",
+      "name_ml": "വാടക്കനാൽ"
+    },
+    {
+      "name": "Choorakavukulam",
+      "name_ml": null
+    },
+    {
+      "name": "Ponnamthodu",
+      "name_ml": null
+    },
+    {
+      "name": "Anakkuzhikkal Chirakkal thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Kakkanadu-Thenamara",
+      "name_ml": null
+    },
+    {
+      "name": "Kattukada - Kattachira Canal",
+      "name_ml": "കാട്ടുകട - കട്ടച്ചിറ തോട്"
+    },
+    {
+      "name": "Pullamkulam",
+      "name_ml": null
+    },
+    {
+      "name": "Nalupanku Canal",
+      "name_ml": "നാലുപങ്ക് തോട്"
+    },
+    {
+      "name": "Abad Pallithodu",
+      "name_ml": null
+    },
+    {
+      "name": "Mangara Canal",
+      "name_ml": "മങ്ങാരത്തോട്"
+    },
+    {
+      "name": "Chalunkal - Dwaraka Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Chalunkal - Kanichukulangara Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Chirayil Kumarapuram Muppari Thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Manimalayar",
+      "name_ml": null
+    },
+    {
+      "name": "Othalathodu",
+      "name_ml": null
+    },
+    {
+      "name": "Market Thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Puthoor Mathamveli",
+      "name_ml": null
+    },
+    {
+      "name": "Shappupady Manchirathodu",
+      "name_ml": "ഷാപ്പുപടി മൺചിറത്തോട്"
+    },
+    {
+      "name": "Gonginikkari Pulimoodu",
+      "name_ml": null
+    },
+    {
+      "name": "Chakrampady Canal",
+      "name_ml": "ചക്രംപടി തോട്"
+    },
+    {
+      "name": "Tarmpond",
+      "name_ml": null
+    },
+    {
+      "name": "Panthiyil",
+      "name_ml": "പന്തിയിൽ"
+    },
+    {
+      "name": "Kalchira",
+      "name_ml": "കൽച്ചിറ"
+    },
+    {
+      "name": "Mooleppura RARS",
+      "name_ml": "മൂലേപ്പുര RARS"
+    },
+    {
+      "name": "Kavalakkal",
+      "name_ml": "കവലക്കൽ"
+    },
+    {
+      "name": "Vattippullu Kurissadi Canal",
+      "name_ml": "വട്ടിപ്പുല്ല് കുരിശ്ശടി തോട്"
+    },
+    {
+      "name": "Mathathil Canal",
+      "name_ml": "മഠത്തിൽ തോട്"
+    },
+    {
+      "name": "Pallaramatathil",
+      "name_ml": "പള്ളറമഠത്തിൽ"
+    },
+    {
+      "name": "Kodiyanthra Canal",
+      "name_ml": "കൊടിയന്ത്ര തോട്"
+    },
+    {
+      "name": "Vattanacherry Canal",
+      "name_ml": "വട്ടാനച്ചേരി തോട്"
+    },
+    {
+      "name": "Mathathil Matli Canal",
+      "name_ml": "മഠത്തിൽ മട്ലി തോട്"
+    },
+    {
+      "name": "Maruthanal - Mavelimuttu",
+      "name_ml": null
+    },
+    {
+      "name": "Puthiyaparampu Canal",
+      "name_ml": "പുതിയാപറമ്പ് തോട്"
+    },
+    {
+      "name": "Manaveli - Othara Bhagam",
+      "name_ml": "മണവേലി - ഓതറ ഭാഗം തോട്"
+    },
+    {
+      "name": "Puthanveli - Kalathiveedu Canal",
+      "name_ml": "പുത്തൻവെളി - കളത്തിവീട് തോട്"
+    },
+    {
+      "name": "Ambalatil - Arackal",
+      "name_ml": null
+    },
+    {
+      "name": "Kumarakom Bazaar Valiya Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Muthentenada Thumbu Canal",
+      "name_ml": "മുത്തന്റെനട തുമ്പിൽ തോട്"
+    },
+    {
+      "name": "Varapathra Canal",
+      "name_ml": "വരാപത്ര തോട്"
+    },
+    {
+      "name": "Kanjiram Valiyapalm Vettikkadu Thodu",
+      "name_ml": null
+    },
+    {
+      "name": "Poonkasery - Pattada Canal",
+      "name_ml": "പൂങ്കശേരി - പട്ടട തോട്"
+    },
+    {
+      "name": "Vallonthara - Karimankavu",
+      "name_ml": "വള്ളോന്തറ - കരിമാങ്കാവ് തോട്"
+    },
+    {
+      "name": "Vallonthara Canal",
+      "name_ml": "വള്ളോന്തറ തോട്"
+    },
+    {
+      "name": "Makkil Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Kainikkara Illam Kulam",
+      "name_ml": null
+    },
+    {
+      "name": "Pulikkalkavu Temple Pond",
+      "name_ml": null
+    },
+    {
+      "name": "Nerekadavu Canal",
+      "name_ml": null
+    },
+    {
+      "name": "Chenganda lake",
+      "name_ml": null
+    },
+    {
+      "name": "Vattakkaayal",
+      "name_ml": null
+    },
+    {
+      "name": "Vembanad Lake",
+      "name_ml": "വേമ്പനാട്ട് കായൽ"
+    }
+  ],
+  "places": [
+    {
+      "name": "Kumarakom",
+      "name_ml": "കുമരകം",
+      "lon": 76.4305378,
+      "lat": 9.5960545
+    },
+    {
+      "name": "Cherthala",
+      "name_ml": "ചേർത്തല",
+      "lon": 76.3426114,
+      "lat": 9.686177
+    },
+    {
+      "name": "Vellakinar",
+      "name_ml": "വെള്ളക്കിണര്",
+      "lon": 76.3336515,
+      "lat": 9.4919443
+    },
+    {
+      "name": "Changanassery",
+      "name_ml": "ചങ്ങനാശ്ശേരി",
+      "lon": 76.5403096,
+      "lat": 9.4465151
+    },
+    {
+      "name": "Punnapra",
+      "name_ml": "പുന്നപ്ര",
+      "lon": 76.35002,
+      "lat": 9.43331
+    },
+    {
+      "name": "Ramankari",
+      "name_ml": "രാമങ്കരി",
+      "lon": 76.46656,
+      "lat": 9.43331
+    },
+    {
+      "name": "Manganam",
+      "name_ml": "മാങ്ങാനം",
+      "lon": 76.54999,
+      "lat": 9.58334
+    },
+    {
+      "name": "Thuravoor",
+      "name_ml": "തുറവൂർ",
+      "lon": 76.3182441,
+      "lat": 9.7685613
+    },
+    {
+      "name": "Kanakkarry",
+      "name_ml": "കാണക്കാരി",
+      "lon": 76.5478003,
+      "lat": 9.7023032
+    },
+    {
+      "name": "Kanjirathanam",
+      "name_ml": "കാഞ്ഞിരത്താനം",
+      "lon": 76.5304454,
+      "lat": 9.745602
+    },
+    {
+      "name": "Kaduthuruthy",
+      "name_ml": "കടുത്തുരുത്തി",
+      "lon": 76.4922324,
+      "lat": 9.7655057
+    },
+    {
+      "name": "Thaneermukkom",
+      "name_ml": "തണ്ണീര്‍മുക്കം",
+      "lon": 76.3921457,
+      "lat": 9.6760292
+    },
+    {
+      "name": "Arthunkal",
+      "name_ml": "അര്‍ത്തുങ്കല്‍",
+      "lon": 76.2994454,
+      "lat": 9.66114
+    },
+    {
+      "name": "Muhamma",
+      "name_ml": "മുഹമ്മ",
+      "lon": 76.3605383,
+      "lat": 9.6054265
+    },
+    {
+      "name": "Chennamkary",
+      "name_ml": null,
+      "lon": 76.395723,
+      "lat": 9.4800921
+    },
+    {
+      "name": "Kadavu",
+      "name_ml": "കടവ്",
+      "lon": 76.3835538,
+      "lat": 9.4845621
+    },
+    {
+      "name": "Kainakary",
+      "name_ml": "കൈനകരി",
+      "lon": 76.3868499,
+      "lat": 9.4785813
+    },
+    {
+      "name": "Mancombu",
+      "name_ml": "മാങ്കൊമ്പ്",
+      "lon": 76.4287912,
+      "lat": 9.4372481
+    },
+    {
+      "name": "Ponga",
+      "name_ml": "പൊങ്ങ",
+      "lon": 76.3889326,
+      "lat": 9.4518647
+    },
+    {
+      "name": "Pullincunoo",
+      "name_ml": "പുളിങ്കുന്ന്",
+      "lon": 76.4407988,
+      "lat": 9.4514113
+    },
+    {
+      "name": "Punakunnam",
+      "name_ml": null,
+      "lon": 76.4452233,
+      "lat": 9.4423424
+    },
+    {
+      "name": "Thottuva",
+      "name_ml": "തോട്ടുവ",
+      "lon": 76.5429111,
+      "lat": 9.7546261
+    },
+    {
+      "name": "Nagampadam",
+      "name_ml": "നാഗമ്പടം",
+      "lon": 76.5274487,
+      "lat": 9.5973259
+    },
+    {
+      "name": "Pallom",
+      "name_ml": "പള്ളം",
+      "lon": 76.514907,
+      "lat": 9.528549
+    },
+    {
+      "name": "Chingavanam",
+      "name_ml": "ചിങ്ങവനം",
+      "lon": 76.5247268,
+      "lat": 9.5247631
+    },
+    {
+      "name": "Ammanchery",
+      "name_ml": "അമ്മഞ്ചേരി",
+      "lon": 76.5337879,
+      "lat": 9.6424662
+    },
+    {
+      "name": "Kuttipadi",
+      "name_ml": "കുട്ടിപടി",
+      "lon": 76.5265141,
+      "lat": 9.6461234
+    },
+    {
+      "name": "Mannanam",
+      "name_ml": "മാന്നാനം",
+      "lon": 76.5209261,
+      "lat": 9.6483398
+    },
+    {
+      "name": "Perunna",
+      "name_ml": "പെരുന്ന",
+      "lon": 76.5442466,
+      "lat": 9.4381446
+    },
+    {
+      "name": "Kurichi",
+      "name_ml": "കുറിച്ചി",
+      "lon": 76.5251119,
+      "lat": 9.5010259
+    },
+    {
+      "name": "Nattakom",
+      "name_ml": "നാട്ടകം",
+      "lon": 76.5135334,
+      "lat": 9.5554641
+    },
+    {
+      "name": "Kanjikuzhy Junction",
+      "name_ml": "കഞ്ഞിക്കുഴി",
+      "lon": 76.5429708,
+      "lat": 9.5873934
+    },
+    {
+      "name": "Muttuchira",
+      "name_ml": "മുട്ടുചിറ",
+      "lon": 76.4993496,
+      "lat": 9.7560576
+    },
+    {
+      "name": "Udayanapuram",
+      "name_ml": "ഉദയനാപുരം",
+      "lon": 76.395308,
+      "lat": 9.7726949
+    },
+    {
+      "name": "T V Puram",
+      "name_ml": "ടി.വി. പുരം;തിരുമണി വെങ്കിടപുരം",
+      "lon": 76.3921183,
+      "lat": 9.7119917
+    },
+    {
+      "name": "Pathirappally",
+      "name_ml": "പാതിരപ്പള്ളി",
+      "lon": 76.3272131,
+      "lat": 9.5370149
+    },
+    {
+      "name": "Sleevapuram",
+      "name_ml": "സ്ലീവാപുരം",
+      "lon": 76.538197,
+      "lat": 9.730258
+    },
+    {
+      "name": "Perunthuruthu",
+      "name_ml": "പെരുന്തുരുത്ത്",
+      "lon": 76.4742078,
+      "lat": 9.6921463
+    },
+    {
+      "name": "Kallara",
+      "name_ml": "കല്ലറ",
+      "lon": 76.4779395,
+      "lat": 9.6979637
+    },
+    {
+      "name": "Kudavechur",
+      "name_ml": null,
+      "lon": 76.4083413,
+      "lat": 9.6674239
+    },
+    {
+      "name": "Vechur",
+      "name_ml": "വെച്ചൂർ",
+      "lon": 76.4208901,
+      "lat": 9.6779444
+    },
+    {
+      "name": "Illikkal",
+      "name_ml": "ഇല്ലിക്കൽ",
+      "lon": 76.489388,
+      "lat": 9.5881304
+    },
+    {
+      "name": "Ayamkudy",
+      "name_ml": "ആയാംകുടി",
+      "lon": 76.4781972,
+      "lat": 9.7476822
+    },
+    {
+      "name": "Kuruppanthara",
+      "name_ml": "കുറുപ്പന്തറ",
+      "lon": 76.5172213,
+      "lat": 9.741236
+    },
+    {
+      "name": "Zakariya Bazar",
+      "name_ml": "സക്കറിയ ബസാര്‍",
+      "lon": 76.3262008,
+      "lat": 9.4917125
+    },
+    {
+      "name": "Vattappally",
+      "name_ml": "വട്ടപ്പള്ളി",
+      "lon": 76.3268336,
+      "lat": 9.4859616
+    },
+    {
+      "name": "Mullakkal",
+      "name_ml": "മുല്ലക്കല്‍",
+      "lon": 76.3415027,
+      "lat": 9.4985499
+    },
+    {
+      "name": "Paravoor",
+      "name_ml": "പരവൂർ",
+      "lon": 76.342065,
+      "lat": 9.4521739
+    },
+    {
+      "name": "Vazhicherry",
+      "name_ml": "വഴിച്ചേരി",
+      "lon": 76.3337824,
+      "lat": 9.4979269
+    },
+    {
+      "name": "Nehru Trophy Island Pavilion",
+      "name_ml": null,
+      "lon": 76.3534485,
+      "lat": 9.5008269
+    },
+    {
+      "name": "Vaikom",
+      "name_ml": "വൈക്കം",
+      "lon": 76.3926003,
+      "lat": 9.7497841
+    },
+    {
+      "name": "Kumaranalloor",
+      "name_ml": "കുമാരനല്ലൂർ",
+      "lon": 76.5327349,
+      "lat": 9.6174363
+    },
+    {
+      "name": "Arpookara",
+      "name_ml": "ആർപ്പൂക്കര",
+      "lon": 76.4833591,
+      "lat": 9.6324102
+    },
+    {
+      "name": "Aymanam",
+      "name_ml": "അയ്മനം",
+      "lon": 76.4997932,
+      "lat": 9.6121459
+    },
+    {
+      "name": "Kalavoor",
+      "name_ml": "കലവൂർ",
+      "lon": 76.3286125,
+      "lat": 9.5705238
+    },
+    {
+      "name": "Devalokam",
+      "name_ml": "ദേവലോകം",
+      "lon": 76.5432188,
+      "lat": 9.5776878
+    },
+    {
+      "name": "Kaipuzha",
+      "name_ml": "കൈപ്പുഴ",
+      "lon": 76.5063039,
+      "lat": 9.6694712
+    },
+    {
+      "name": "Athirampuzha",
+      "name_ml": "അതിരമ്പുഴ",
+      "lon": 76.5328609,
+      "lat": 9.6678442
+    },
+    {
+      "name": "Neendoor",
+      "name_ml": "നീണ്ടൂർ",
+      "lon": 76.5055272,
+      "lat": 9.6855081
+    },
+    {
+      "name": "Maniaparambu",
+      "name_ml": "മണിയപ്പറമ്പ്",
+      "lon": 76.4788595,
+      "lat": 9.6449298
+    },
+    {
+      "name": "Parippu",
+      "name_ml": "പരിപ്പ്",
+      "lon": 76.4756311,
+      "lat": 9.6192366
+    },
+    {
+      "name": "Poopalli",
+      "name_ml": "പൂപ്പള്ളി",
+      "lon": 76.3995045,
+      "lat": 9.4459456
+    },
+    {
+      "name": "Champakulam",
+      "name_ml": "ചമ്പക്കുളം",
+      "lon": 76.4115308,
+      "lat": 9.408063
+    },
+    {
+      "name": "Thiruvarppu",
+      "name_ml": "തിരുവാർപ്പ്",
+      "lon": 76.4742489,
+      "lat": 9.5811456
+    },
+    {
+      "name": "Naalupanku",
+      "name_ml": "നാലുപങ്ക്",
+      "lon": 76.4191854,
+      "lat": 9.5650045
+    },
+    {
+      "name": "Malarikkal",
+      "name_ml": "മലരിക്കൽ",
+      "lon": 76.4923113,
+      "lat": 9.5588786
+    },
+    {
+      "name": "Nazareth Hill",
+      "name_ml": "കളത്തൂർ",
+      "lon": 76.5472765,
+      "lat": 9.7426929
+    },
+    {
+      "name": "Kalathoor",
+      "name_ml": "കളത്തൂർ",
+      "lon": 76.5443608,
+      "lat": 9.7198025
+    },
+    {
+      "name": "Manjoor",
+      "name_ml": "മാഞ്ഞൂർ",
+      "lon": 76.5192838,
+      "lat": 9.7287041
+    },
+    {
+      "name": "Kothanalloor",
+      "name_ml": "കോതനല്ലൂര്‍",
+      "lon": 76.5267406,
+      "lat": 9.7194698
+    },
+    {
+      "name": "Karipputhattu",
+      "name_ml": "കരിപ്പൂത്തട്ട്",
+      "lon": 76.4960769,
+      "lat": 9.6339979
+    },
+    {
+      "name": "Kavalam",
+      "name_ml": "കാവാലം",
+      "lon": 76.4555815,
+      "lat": 9.4761775
+    },
+    {
+      "name": "Arattukulangara",
+      "name_ml": null,
+      "lon": 76.4069912,
+      "lat": 9.7505435
+    },
+    {
+      "name": "Perumkaruga colony",
+      "name_ml": null,
+      "lon": 76.4310501,
+      "lat": 9.7796916
+    },
+    {
+      "name": "Kainady",
+      "name_ml": "കൈനടി",
+      "lon": 76.4702667,
+      "lat": 9.4941781
+    },
+    {
+      "name": "Narakathara",
+      "name_ml": "നാരകത്തറ",
+      "lon": 76.4660816,
+      "lat": 9.4691919
+    },
+    {
+      "name": "Kumarankary",
+      "name_ml": "കുമരങ്കരി;കുമരംകരി",
+      "lon": 76.494881,
+      "lat": 9.4584285
+    },
+    {
+      "name": "Neelamperoor",
+      "name_ml": "നീലംപേരൂർ",
+      "lon": 76.5052632,
+      "lat": 9.4964567
+    },
+    {
+      "name": "Eara",
+      "name_ml": null,
+      "lon": 76.4972249,
+      "lat": 9.4892033
+    },
+    {
+      "name": "Vayalar",
+      "name_ml": "വയലാർ",
+      "lon": 76.337456,
+      "lat": 9.7185185
+    },
+    {
+      "name": "Varanad",
+      "name_ml": "വരനാട്",
+      "lon": 76.3612224,
+      "lat": 9.6965266
+    },
+    {
+      "name": "Thiruvizha",
+      "name_ml": "തിരുവിഴ",
+      "lon": 76.3240026,
+      "lat": 9.640776
+    },
+    {
+      "name": "Mannancherry",
+      "name_ml": "മണ്ണഞ്ചേരി",
+      "lon": 76.3475691,
+      "lat": 9.5720722
+    },
+    {
+      "name": "Pallippuram",
+      "name_ml": "പള്ളിപ്പുറം",
+      "lon": 76.3626011,
+      "lat": 9.7605593
+    },
+    {
+      "name": "Thycattussery",
+      "name_ml": "തൈക്കാട്ടുശ്ശേരി",
+      "lon": 76.342421,
+      "lat": 9.7734811
+    },
+    {
+      "name": "Kanjikkuzhi",
+      "name_ml": "കഞ്ഞിക്കുഴി",
+      "lon": 76.3339506,
+      "lat": 9.6087607
+    },
+    {
+      "name": "Cherthala South",
+      "name_ml": "ചേർത്തല തെക്ക്",
+      "lon": 76.3179589,
+      "lat": 9.6521041
+    },
+    {
+      "name": "Valady",
+      "name_ml": null,
+      "lon": 76.4942703,
+      "lat": 9.4673195
+    },
+    {
+      "name": "Alappuzha",
+      "name_ml": null,
+      "lon": 76.342031,
+      "lat": 9.5006053
+    },
+    {
+      "name": "Paruthumpara",
+      "name_ml": "പരുത്തുംപാറ",
+      "lon": 76.5406613,
+      "lat": 9.5296406
+    },
+    {
+      "name": "Kuzhimattom",
+      "name_ml": "കുഴിമറ്റം",
+      "lon": 76.5393836,
+      "lat": 9.5147711
+    },
+    {
+      "name": "Thuruthy",
+      "name_ml": "തുരുത്തി",
+      "lon": 76.5257188,
+      "lat": 9.4832063
+    },
+    {
+      "name": "Idinjillam",
+      "name_ml": "ഇടിഞ്ഞില്ലം",
+      "lon": 76.5498236,
+      "lat": 9.4166567
+    },
+    {
+      "name": "Kattoor",
+      "name_ml": "കാട്ടൂർ",
+      "lon": 76.3091191,
+      "lat": 9.5644208
+    },
+    {
+      "name": "Pulikuttisseri",
+      "name_ml": null,
+      "lon": 76.4931326,
+      "lat": 9.6244828
+    },
+    {
+      "name": "Maniyamthuruth",
+      "name_ml": "മണിയംതുരുത്ത്",
+      "lon": 76.4645526,
+      "lat": 9.6802377
+    },
+    {
+      "name": "Kuzhippadavu",
+      "name_ml": "കുഴിപ്പടവ്",
+      "lon": 76.4658718,
+      "lat": 9.6777213
+    },
+    {
+      "name": "Vettikad",
+      "name_ml": "വെട്ടിക്കാട്",
+      "lon": 76.4674894,
+      "lat": 9.5635502
+    },
+    {
+      "name": "Kareemadom",
+      "name_ml": "കരീമഠം",
+      "lon": 76.4488471,
+      "lat": 9.6344846
+    },
+    {
+      "name": "Kallumkathara",
+      "name_ml": "കല്ലുങ്കത്തറ",
+      "lon": 76.4776745,
+      "lat": 9.630814
+    },
+    {
+      "name": "Koduppunna",
+      "name_ml": "കൊടുപ്പുന്ന",
+      "lon": 76.454792,
+      "lat": 9.4103341
+    },
+    {
+      "name": "Thollayiram",
+      "name_ml": "തൊള്ളായിരം",
+      "lon": 76.4572561,
+      "lat": 9.6185637
+    },
+    {
+      "name": "Kummanam",
+      "name_ml": "കുമ്മനം",
+      "lon": 76.501985,
+      "lat": 9.5968399
+    },
+    {
+      "name": "Veloor",
+      "name_ml": "വേളൂർ",
+      "lon": 76.4988038,
+      "lat": 9.5821741
+    },
+    {
+      "name": "Pallippurathussery",
+      "name_ml": "പള്ളിപ്പുറത്തുശ്ശേരി",
+      "lon": 76.3924783,
+      "lat": 9.7310049
+    },
+    {
+      "name": "Aryad",
+      "name_ml": "ആര്യാട്",
+      "lon": 76.3367349,
+      "lat": 9.5305009
+    },
+    {
+      "name": "Andhakaranazhy",
+      "name_ml": "അന്ധകാരനഴി",
+      "lon": 76.2849326,
+      "lat": 9.747633
+    },
+    {
+      "name": "Pattanakkad",
+      "name_ml": "പട്ടണക്കാട്",
+      "lon": 76.3136201,
+      "lat": 9.7287273
+    },
+    {
+      "name": "Komalapuram",
+      "name_ml": "കോമളപുരം",
+      "lon": 76.3422722,
+      "lat": 9.5420932
+    },
+    {
+      "name": "Kanichukulangara",
+      "name_ml": "കണിച്ചുകുളങ്ങര",
+      "lon": 76.3138167,
+      "lat": 9.6286957
+    },
+    {
+      "name": "Mararikkulam",
+      "name_ml": "മാരാരിക്കുളം",
+      "lon": 76.3145021,
+      "lat": 9.6017171
+    },
+    {
+      "name": "Thyckal",
+      "name_ml": "തൈക്കൽ",
+      "lon": 76.3013657,
+      "lat": 9.6851643
+    },
+    {
+      "name": "Aryad South",
+      "name_ml": "ആര്യാട് തെക്ക്",
+      "lon": 76.3339447,
+      "lat": 9.5169054
+    },
+    {
+      "name": "Thumpoly",
+      "name_ml": null,
+      "lon": 76.3186695,
+      "lat": 9.5201962
+    },
+    {
+      "name": "Omanappuzha",
+      "name_ml": "ഓമനപ്പുഴ",
+      "lon": 76.311389,
+      "lat": 9.5424809
+    },
+    {
+      "name": "Venattukadu",
+      "name_ml": "വേണാട്ടുകാട്",
+      "lon": 76.4094226,
+      "lat": 9.4833289
+    },
+    {
+      "name": "Kuttamangalam",
+      "name_ml": null,
+      "lon": 76.391446,
+      "lat": 9.4925085
+    },
+    {
+      "name": "Kidangara",
+      "name_ml": "കിടങ്ങറ",
+      "lon": 76.4944567,
+      "lat": 9.4205301
+    },
+    {
+      "name": "Veliyanadu",
+      "name_ml": "വെളിയനാട്",
+      "lon": 76.4708729,
+      "lat": 9.4472958
+    },
+    {
+      "name": "Kunnamkari",
+      "name_ml": "കുന്നംകരി",
+      "lon": 76.4849454,
+      "lat": 9.4356657
+    },
+    {
+      "name": "Pallithode",
+      "name_ml": "പള്ളിത്തോട്",
+      "lon": 76.2806477,
+      "lat": 9.7762099
+    },
+    {
+      "name": "Mathumoola",
+      "name_ml": "മതുമൂല",
+      "lon": 76.5336692,
+      "lat": 9.4571771
+    },
+    {
+      "name": "Vandipetta",
+      "name_ml": "വണ്ടിപ്പേട്ട",
+      "lon": 76.5299088,
+      "lat": 9.4463168
+    },
+    {
+      "name": "Kollad",
+      "name_ml": "കൊല്ലാട്",
+      "lon": 76.5423365,
+      "lat": 9.5613152
+    },
+    {
+      "name": "Vadakkekara",
+      "name_ml": "വടക്കേക്കര",
+      "lon": 76.5454407,
+      "lat": 9.4693885
+    },
+    {
+      "name": "Mullackal",
+      "name_ml": null,
+      "lon": 76.3421602,
+      "lat": 9.5005173
+    }
+  ]
+}

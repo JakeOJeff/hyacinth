@@ -1,0 +1,29 @@
+{
+  "width": 448,
+  "height": 640,
+  "dx_m": 60,
+  "dt_seconds": 9.6,
+  "steps_per_hour": 375,
+  "spinup_hours": 0,
+  "state_step": 0,
+  "seeded_particles": 3938,
+  "forecast_hours": 72,
+  "forecast_start": "2026-11-21T15:00:00Z",
+  "barrage_open": false,
+  "synthetic": true,
+  "particles_per_full_cell": 4,
+  "jam_threshold_particles": 3,
+  "particles_start": {
+    "alive": 2651,
+    "stuck": 0,
+    "flushed": 0
+  },
+  "particles_end": {
+    "alive": 2651,
+    "stuck": 1548,
+    "flushed": 0
+  },
+  "jammed_cells": 182,
+  "video": null,
+  "wall_seconds": 40.928220499999995
+}

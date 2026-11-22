@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hyacinth · കുളവാഴ</title>
+    <meta name="description" content="Free daily 72-hour forecast of where water hyacinth is likely to jam Vembanad lake and the Kuttanad canals." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232a2520'/%3E%3Cpath d='M16 6v20M6 16h20M9 9l14 14M23 9L9 23' stroke='%23f3eee6' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Noto+Sans+Malayalam:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body id="top">
+    <section class="hero" id="stage" data-mode="live">
+      <canvas id="canvas3d" class="c3d" hidden></canvas>
+      <canvas id="canvas"></canvas>
+      <video id="video" muted loop playsinline controls hidden></video>
+      <img id="heatmap" alt="Jam heatmap for the next 72 hours" hidden />
+      <img id="hot-img" class="layer" alt="How often hyacinth mats and possible debris appeared since January 2025" hidden />
+      <img id="last-img" class="layer" alt="Hyacinth mats and possible debris on the last clear satellite pass" hidden />
+      <div class="veil" aria-hidden="true"></div>
+
+      <header class="bar glass rise" style="--d: 0ms">
+        <a class="brand" href="#top" aria-label="Hyacinth home">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4" /></svg>
+          <span>Hyacinth</span>
+        </a>
+        <nav class="tabs" role="tablist" aria-label="Map view">
+          <span class="thumb" aria-hidden="true"></span>
+          <button data-mode="3d" role="tab">3D lake</button>
+          <button data-mode="live" role="tab">Simulation</button>
+          <button data-mode="hotspots" role="tab">Hotspots</button>
+          <button data-mode="latest" role="tab">Last pass</button>
+          <button data-mode="timelapse" role="tab">Timelapse</button>
+          <button data-mode="heatmap" role="tab">Heatmap</button>
+        </nav>
+        <nav class="jump" aria-label="Sections">
+          <a href="#ask">Ask</a>
+          <a href="#forecast">Forecast</a>
+          <a href="#health">Lake health</a>
+          <a href="#sim">Simulator</a>
+        </nav>
+        <div class="dataset" id="dataset"></div>
+        <div class="badge" id="synthetic-badge" hidden>Test run</div>
+      </header>
+
+      <aside class="hud glass rise" id="hud" style="--d: 90ms" data-open="true">
+        <button class="hud-head" id="hud-toggle" aria-expanded="true" aria-controls="hud-body">
+          <h1>Hyacinth <span class="ml">കുളവാഴ</span></h1>
+          <span class="chev" aria-hidden="true"></span>
+        </button>
+        <div class="hud-body" id="hud-body">
+          <div class="hud-inner">
+            <p>Where water hyacinth will jam Vembanad and the Kuttanad canals in the next 72 hours, and how the lake is doing, from satellites.</p>
+            <dl class="chips">
+              <div><dt>Next blockage</dt><dd id="next-block">–</dd></div>
+              <div><dt>Barrage</dt><dd id="barrage-state">–</dd></div>
+              <div><dt>Horizon</dt><dd id="horizon">72 h</dd></div>
+              <div><dt>Issued</dt><dd id="issued">–</dd></div>
+            </dl>
+            <a class="hud-cta" href="#ask">Ask about your route <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </aside>
+
+      <div class="glass clock rise" id="clock" style="--d: 160ms">
+        <div class="clock-phase" id="clock-phase">Loading</div>
+        <div class="clock-time" id="clock-time">–</div>
+        <div class="clock-meta" id="clock-meta"></div>
+        <div class="clock-bar" id="clock-bar" hidden><i></i></div>
+      </div>
+
+      <div class="dock glass rise" style="--d: 220ms">
+        <span class="hint" id="hint">Click water to drop hyacinth</span>
+        <dl class="legend" id="legend">
+          <div><i class="dot slate"></i>Water</div>
+          <div><i class="dot sage"></i>Mats</div>
+          <div><i class="dash"></i>Barrage</div>
+          <div id="legend-obs" hidden><i class="dot pink"></i>Observed</div>
+        </dl>
+        <dl class="legend" id="legend-health" hidden>
+          <div><i class="dot mat"></i>Hyacinth mats</div>
+          <div><i class="dot deb"></i>Possible debris</div>
+          <div><i class="dot cloud"></i>Cloud (last pass)</div>
+        </dl>
+        <div class="ctl3d" id="ctl3d" hidden>
+          <button id="glow" aria-pressed="true">Jam glow</button>
+          <button id="orbit" aria-pressed="true">Orbit</button>
+          <button id="home">Reset view</button>
+        </div>
+      </div>
+
+      <div class="glass scenario" id="scenario" hidden>
+        <span><b>What-if</b> <span id="scenario-text"></span></span>
+        <button id="scenario-exit">Back to today</button>
+      </div>
+
+      <button class="pin" id="pin" hidden aria-label="Dismiss marker"><span id="pin-label"></span></button>
+
+      <div class="notice" id="notice" hidden></div>
+    </section>
+
+    <main>
+      <!-- today at a glance -->
+      <section class="today" aria-label="Today at a glance">
+        <a class="tile accent" href="#forecast" data-reveal>
+          <span class="t-label">Next blockage</span>
+          <b id="t-next">–</b>
+          <span class="t-sub">72 h forecast · simulated</span>
+        </a>
+        <a class="tile" href="#health" data-reveal data-needs-health hidden>
+          <span class="t-label">Lake health</span>
+          <b><span id="t-health">–</span><small>/100</small></b>
+          <span class="t-sub" id="t-health-sub">relative to its own record</span>
+        </a>
+        <a class="tile" href="#health" data-reveal data-needs-health hidden>
+          <span class="t-label">Sky now · geostationary</span>
+          <b id="t-sky">–</b>
+          <span class="t-sub" id="t-sky-sub">–</span>
+        </a>
+        <a class="tile" href="#health" data-reveal data-needs-health hidden>
+          <span class="t-label">Last clear Sentinel-2 pass</span>
+          <b id="t-pass">–</b>
+          <span class="t-sub" id="t-pass-sub">–</span>
+        </a>
+        <a class="tile" href="#debris" data-reveal data-needs-health hidden>
+          <span class="t-label">Possible debris</span>
+          <b id="t-debris">–</b>
+          <span class="t-sub" id="t-debris-sub">–</span>
+        </a>
+      </section>
+
+      <!-- assistant -->
+      <section class="cell ask-card" data-reveal id="ask">
+        <div class="ask-who">
+          <div class="cell-head">
+            <h2 class="card-title">Ask Hyacinth</h2>
+            <span class="pill">AI · grounded in the data</span>
+          </div>
+          <p class="ask-lede">Ask in English or Malayalam. It answers from today's forecast and the satellite record since 2025, and for "what if" questions it re-runs the simulation on your GPU.</p>
+          <ul class="uses">
+            <li>
+              <b>Clearance crews</b>
+              <span>Where mats will lock in first, so harvesters go there before it jams.</span>
+              <button data-ask="Where should clearance crews go first in the next 24 hours, and by when?">Where to send crews</button>
+            </li>
+            <li>
+              <b>Boats, ferries, houseboats</b>
+              <span>Which stretches to avoid tomorrow and around what time.</span>
+              <button data-ask="Which stretches should boats avoid tomorrow, and from what time?">Routes to avoid</button>
+            </li>
+            <li>
+              <b>Barrage and irrigation</b>
+              <span>What opening or closing Thanneermukkom does to the jams.</span>
+              <button id="ask-barrage" data-ask="What happens to the jams if the Thanneermukkom barrage is closed for the next 48 hours?">Barrage what-if</button>
+            </li>
+            <li>
+              <b>Officials and researchers</b>
+              <span>Lake health, seasons, algae, mud and debris hotspots since 2025.</span>
+              <button data-ask="How has the lake's health changed since 2025, and which zones are worst right now?">Lake health</button>
+            </li>
+          </ul>
+        </div>
+        <div class="ask-chat">
+          <div class="ask-log" id="ask-log" aria-live="polite">
+            <div class="ask-empty">
+              <b>Ask about any canal, route, season or what-if.</b>
+              <span class="muted">Answers cite the forecast and satellite passes. What-ifs run live on your GPU.</span>
+              <div class="sugg">
+                <button data-ask="Will Kumarakom be blocked tomorrow morning?">Will Kumarakom be blocked tomorrow morning?</button>
+                <button data-ask="Where has possible floating debris been showing up recently?">Where is debris showing up?</button>
+                <button data-ask="When in the year is hyacinth cover worst, and why?">When is hyacinth worst?</button>
+                <button data-ask="What if a strong westerly wind of 6 m/s blows for the next 48 hours?">Strong westerly for 48 h?</button>
+                <button class="ml" data-ask="നാളെ രാവിലെ ഏതൊക്കെ ഭാഗങ്ങളിൽ കുളവാഴ കുടുങ്ങാൻ സാധ്യത?">നാളെ രാവിലെ എവിടെ കുളവാഴ കുടുങ്ങും?</button>
+              </div>
+            </div>
+          </div>
+          <p class="ask-note muted" id="ask-note" hidden>The assistant isn't configured on this deployment (no API key). Everything else works.</p>
+          <form class="ask-form" id="ask-form">
+            <textarea id="ask-input" rows="1" maxlength="1000" placeholder="Ask about a canal, a route, the lake's health or a what-if…" aria-label="Your question"></textarea>
+            <button class="btn primary" id="ask-send" type="submit">Ask</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- forecast -->
+      <header class="sec-head" id="forecast">
+        <span class="eyebrow">Next 72 hours</span>
+        <h2>Forecast</h2>
+        <p>Simulated from the last clear satellite pass and the wind forecast. A likelihood, not a guarantee.</p>
+      </header>
+      <div class="bento g-forecast">
+        <section class="cell timeline-card" data-reveal>
+          <div class="cell-head">
+            <h3>Blockage timeline</h3>
+            <span class="muted">hours from now · ha new jam</span>
+          </div>
+          <div class="timeline" id="timeline"><p class="muted">No forecast facts for this dataset.</p></div>
+          <div class="axis" aria-hidden="true"><span>0</span><span>12</span><span>24</span><span>36</span><span>48</span><span>60</span><span>72</span></div>
+          <div class="key">
+            <span><i class="dot terra"></i>Within 24 h</span>
+            <span><i class="dot sage"></i>Day 2</span>
+            <span><i class="dot slate"></i>Day 3</span>
+          </div>
+        </section>
+
+        <section class="cell risk-card" data-reveal>
+          <h3>Jam risk</h3>
+          <div class="stats">
+            <div><b id="risk-places">–</b><small>places likely blocked</small></div>
+            <div><b id="risk-area">–</b><small>ha new jam, 72 h</small></div>
+          </div>
+          <div class="dots" id="dots" aria-hidden="true"></div>
+          <div class="dots-key"><span><i class="dot terra"></i>new (1 ha)</span><span><i class="dot sage"></i>already jammed</span></div>
+        </section>
+
+        <section class="cell wind-card" data-reveal>
+          <h3>Wind</h3>
+          <div class="stats">
+            <div><b id="wind-avg">–</b><small>m/s average</small></div>
+            <div><b><span id="wind-dir">–</span><span class="arrow" id="wind-arrow">↑</span></b><small>mostly from</small></div>
+          </div>
+          <svg class="spark" id="spark" viewBox="0 0 300 70" preserveAspectRatio="none" aria-label="Wind speed over the next 72 hours"></svg>
+        </section>
+
+        <section class="cell caption-card" data-reveal id="caption-card" hidden>
+          <h3>Today's bulletin</h3>
+          <p class="caption ml" id="cap-ml"></p>
+          <p class="caption" id="cap-en"></p>
+          <p class="muted" id="cap-meta"></p>
+        </section>
+      </div>
+
+      <!-- lake health -->
+      <header class="sec-head" id="health" hidden>
+        <span class="eyebrow">Satellite record</span>
+        <h2>Lake health</h2>
+        <p id="h-period">–</p>
+      </header>
+      <div class="bento g-health" data-needs-health hidden>
+        <section class="cell h-controls" data-reveal>
+          <div class="segmented" id="h-metrics" role="tablist" aria-label="Indicator"></div>
+          <div class="h-actions">
+            <label class="select"><span class="sr-only">Zone</span><select id="h-zone"></select></label>
+            <button class="chip-btn" id="h-show">Show on map</button>
+          </div>
+        </section>
+
+        <section class="cell h-trend" data-reveal>
+          <div class="cell-head">
+            <div>
+              <h3>Over time</h3>
+              <p class="muted" id="h-desc"></p>
+            </div>
+            <div class="h-tools">
+              <span class="muted" id="h-unit"></span>
+              <button class="chip-btn" id="h-table-toggle">Table</button>
+              <button class="chip-btn" id="h-csv">CSV</button>
+              <a class="chip-btn" href="./data/health/health.json" download>Full dataset</a>
+            </div>
+          </div>
+          <div class="chart-wrap" id="h-trend-wrap">
+            <svg id="h-trend" class="chart" tabindex="0" role="img"></svg>
+            <p class="muted chart-empty" id="h-empty" hidden>Not enough clear passes for this zone yet.</p>
+          </div>
+          <div class="h-table" id="h-table" hidden>
+            <table>
+              <thead><tr><th>Pass</th><th class="num">Value</th><th class="num">Lake visible</th></tr></thead>
+              <tbody id="h-tbody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="cell h-season" data-reveal>
+          <h3>Seasonal pattern</h3>
+          <div class="chart-wrap" id="h-season-wrap"><svg id="h-season" class="chart" role="img" aria-label="Monthly medians"></svg></div>
+          <p class="muted" id="h-season-note"></p>
+        </section>
+
+        <section class="cell h-rank-card" data-reveal>
+          <h3>Hotspots by zone</h3>
+          <p class="muted" id="h-rank-note"></p>
+          <div class="rank" id="h-rank"></div>
+        </section>
+
+        <section class="cell h-debris-card" id="debris" data-reveal>
+          <div class="cell-head">
+            <h3>Possible floating debris</h3>
+            <span class="pill warn">low confidence</span>
+          </div>
+          <p class="muted" id="h-debris-head"></p>
+          <ul class="deb" id="h-debris"></ul>
+          <div class="row">
+            <button class="chip-btn" id="h-layer-latest">See last pass</button>
+            <button class="chip-btn" id="h-layer-hot">See hotspots</button>
+          </div>
+        </section>
+
+        <section class="cell h-about" data-reveal>
+          <h3>About this data</h3>
+          <ul class="about" id="h-caveats"></ul>
+          <h4>Sources</h4>
+          <ul class="about src" id="h-sources"></ul>
+        </section>
+
+        <section class="cell h-sky" data-reveal>
+          <div class="cell-head">
+            <h3>Satellites working together</h3>
+            <span class="muted">every day since Jan 2025</span>
+          </div>
+          <p class="muted">Geostationary satellites see the lake every 15 minutes but only coarsely; Sentinel-2 sees 20 m detail every few days, but only through clear sky. Dark = cloudier / wetter.</p>
+          <div class="chart-wrap" id="h-sky-wrap"><svg id="h-sky" class="chart" role="img" aria-label="Daily cloudiness, rain and Sentinel-2 passes"></svg></div>
+        </section>
+
+      </div>
+
+      <!-- simulator -->
+      <header class="sec-head" id="sim">
+        <span class="eyebrow">Try it</span>
+        <h2>Simulator</h2>
+        <p>Change the wind, the barrage or the river, or click the water on the map to drop hyacinth and watch where it goes.</p>
+      </header>
+      <div class="bento g-sim">
+        <aside class="cell panel" data-reveal>
+          <div class="cell-head">
+            <h3>Controls</h3>
+            <span class="muted">WebGPU</span>
+          </div>
+
+          <div class="row">
+            <button class="btn primary" id="play">Pause</button>
+            <button class="btn" id="reset">Reset</button>
+          </div>
+
+          <label class="field">
+            <span>Sim speed <output id="speed-out"></output></span>
+            <input id="speed" type="range" min="0" max="100" value="46" />
+          </label>
+
+          <label class="field">
+            <span>Drop size <output id="drop-out"></output></span>
+            <input id="drop" type="range" min="50" max="3000" step="50" value="600" />
+          </label>
+
+          <label class="switch obs" id="obs-wrap" hidden><span>Show observed mats (hindcast)</span><input id="observed" type="checkbox" checked /><i></i></label>
+        </aside>
+
+        <section class="cell panel" data-reveal>
+          <fieldset class="group">
+            <div class="group-head">
+              <legend>Wind</legend>
+              <label class="switch"><span>Set by hand</span><input id="wind-manual" type="checkbox" /><i></i></label>
+            </div>
+            <label class="field">
+              <span>From <output id="dir-out"></output></span>
+              <input id="dir" type="range" min="0" max="359" value="250" disabled />
+            </label>
+            <label class="field">
+              <span>Speed <output id="ws-out"></output></span>
+              <input id="ws" type="range" min="0" max="15" step="0.5" value="5" disabled />
+            </label>
+          </fieldset>
+        </section>
+
+        <section class="cell panel" data-reveal>
+          <fieldset class="group">
+            <div class="group-head">
+              <legend>Water</legend>
+              <label class="switch"><span>Barrage open</span><input id="barrage" type="checkbox" /><i></i></label>
+            </div>
+            <label class="field">
+              <span>River inflow <output id="river-out"></output></span>
+              <input id="river" type="range" min="0" max="30" value="6" />
+            </label>
+          </fieldset>
+          <p class="fine">Uncalibrated 2D lattice-Boltzmann model. Mats move with the current plus ~3% of the wind. Same GPU code as the daily forecast. A likelihood, not a guarantee.</p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <span>Copernicus Sentinel-2 (ESA) via Microsoft Planetary Computer · EUMETSAT Meteosat / JMA Himawari and weather via Open-Meteo · © OpenStreetMap contributors</span>
+      <span>Hyacinth · കുളവാഴ</span>
+    </footer>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "synthetic": true,
+  "forecast_start_ist": "Sat 21 Nov 2026 20:30 IST",
+  "window_hours": 72,
+  "barrage": "closed",
+  "scene_date": null,
+  "wind": {
+    "mean_speed_ms": 2.6,
+    "max_speed_ms": 5.7,
+    "prevailing_from_deg": 256,
+    "prevailing_from": "west"
+  },
+  "total_new_jam_area_ha": 35.2,
+  "segments": [
+    {
+      "place": "Canal Junction (synthetic)",
+      "place_ml": null,
+      "waterway": null,
+      "waterway_ml": null,
+      "new_jam_area_ha": 21.2,
+      "already_jammed_area_ha": 0.0,
+      "eta_hours": 25,
+      "by_day_en": "Sunday",
+      "by_day_ml": "ഞായറാഴ്ച",
+      "by_time_ist": "Sun 22 Nov 21:00 IST"
+    },
+    {
+      "place": "East Landing (synthetic)",
+      "place_ml": null,
+      "waterway": null,
+      "waterway_ml": null,
+      "new_jam_area_ha": 12.6,
+      "already_jammed_area_ha": 0.0,
+      "eta_hours": 40,
+      "by_day_en": "Monday",
+      "by_day_ml": "തിങ്കളാഴ്ച",
+      "by_time_ist": "Mon 23 Nov 12:00 IST"
+    },
+    {
+      "place": "Island Point (synthetic)",
+      "place_ml": null,
+      "waterway": null,
+      "waterway_ml": null,
+      "new_jam_area_ha": 1.4,
+      "already_jammed_area_ha": 0.0,
+      "eta_hours": 8,
+      "by_day_en": "Sunday",
+      "by_day_ml": "ഞായറാഴ്ച",
+      "by_time_ist": "Sun 22 Nov 04:00 IST"
+    },
+    {
+      "place": "West Town (synthetic)",
+      "place_ml": null,
+      "waterway": null,
+      "waterway_ml": null,
+      "new_jam_area_ha": 0.0,
+      "already_jammed_area_ha": 1.4,
+      "eta_hours": 0,
+      "by_day_en": "Saturday",
+      "by_day_ml": "ശനിയാഴ്ച",
+      "by_time_ist": "Sat 21 Nov 20:00 IST"
+    }
+  ],
+  "water_cells": 102535
+}

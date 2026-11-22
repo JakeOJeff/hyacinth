@@ -1,0 +1,16 @@
+[
+  {
+    "name": "latest",
+    "source": "sentinel-2-l2a + osm + open-meteo",
+    "scene_date": "2026-11-18",
+    "observed_date": null,
+    "synthetic": false
+  },
+  {
+    "name": "synthetic",
+    "source": "synthetic",
+    "scene_date": null,
+    "observed_date": null,
+    "synthetic": true
+  }
+]

@@ -1,0 +1,16 @@
+.venv/
+node_modules/
+web/dist/
+data/*/out/frames/
+data/latest/
+data/hindcast/
+web/public/data/latest/
+web/public/data/hindcast/
+__pycache__/
+*.pyc
+.env
+.dev.vars
+data/health/
+web/public/data/health/
+.env.local
+.env.*.local

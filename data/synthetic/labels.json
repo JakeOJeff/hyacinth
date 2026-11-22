@@ -1,0 +1,29 @@
+{
+  "waterways": [],
+  "places": [
+    {
+      "name": "North Jetty (synthetic)",
+      "name_ml": null
+    },
+    {
+      "name": "Island Point (synthetic)",
+      "name_ml": null
+    },
+    {
+      "name": "East Landing (synthetic)",
+      "name_ml": null
+    },
+    {
+      "name": "Canal Junction (synthetic)",
+      "name_ml": null
+    },
+    {
+      "name": "West Town (synthetic)",
+      "name_ml": null
+    },
+    {
+      "name": "South Basin (synthetic)",
+      "name_ml": null
+    }
+  ]
+}
